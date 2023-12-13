@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/lib/",
+                "${workspaceFolder}/src/",
+                "${workspaceFolder}/vendor/semver/include/",
+                "${workspaceFolder}/vendor/wil/include/",
+                "${workspaceFolder}/vendor/nameof/include/",
+                "${workspaceFolder}/vendor/RED4ext.SDK/include/",
+                "${env:LOCALAPPDATA}/.xmake/packages/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

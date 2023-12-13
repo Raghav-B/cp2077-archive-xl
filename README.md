@@ -32,3 +32,16 @@ With the mod you can:
 - [Components overrides](https://github.com/psiberx/cp2077-archive-xl/wiki#components-overrides)
 - [Visual tags](https://github.com/psiberx/cp2077-archive-xl/wiki#visual-tags)
 - [Extending resources](https://github.com/psiberx/cp2077-archive-xl/wiki#extending-resources)
+
+## Building from Source
+
+1. Install `xmake` using
+   ```
+   Invoke-Expression (Invoke-Webrequest 'https://xmake.io/psget.text' -UseBasicParsing).Content
+   ```
+2. Download all submodules using
+   ```
+   git submodule update --init --recursive
+   ```
+3. Run `xmake` in the root directory of the project. This will download and install dependencies, and compile the project.
+4. Output is in `build/windows/x64/release/`
