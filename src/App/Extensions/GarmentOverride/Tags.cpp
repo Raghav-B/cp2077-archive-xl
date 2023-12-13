@@ -28,6 +28,28 @@ App::OverrideTagManager::OverrideTagManager() noexcept
               }
           },
           {
+              "hide_Hands", 
+              {
+                  // Hide Gorilla Arms' Hands
+                  {"a0_005_wa__strongarms_photo_mode_cyberware_l", Hide()},
+                  {"a0_005_wa__strongarms_photo_mode_l", Hide({1,2,4,5,6,7,8})},
+                  {"a0_005_wa__strongarms_photo_mode_cyberware_r", Hide()},
+                  {"a0_005_wa__strongarms_photo_mode_r", Hide({0,4,6,7,8,9})},
+                
+                  {"a0_005_wa__strongarms_cyberware_l", Hide()},
+                  {"a0_005_wa__strongarms_int_l", Hide()},
+                  {"a0_005_wa__strongarms_l", Hide({2,4,10,11,13,15})},
+                  {"a0_005_wa__strongarms_holstered_l", Hide({2,3,5,6,8,9})},
+                  {"a0_005_wa__strongarms_holstered_cyberware_l", Hide()},
+
+                  {"a0_005_wa__strongarms_cyberware_r", Hide()},
+                  {"a0_005_wa__strongarms_int_r", Hide()},
+                  {"a0_005_wa__strongarms_r", Hide({0,5,7,8,9})},
+                  {"a0_005_wa__strongarms_holstered_r", Hide({0,4,6,8,9})},
+                  {"a0_005_wa__strongarms_holstered_cyberware_r", Hide()},
+              }
+          },
+          {
               "hide_Torso",
               {
                   {"n0_", Hide()},
